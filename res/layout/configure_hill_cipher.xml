@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@string/matrix_key"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<TableLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k11"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k12"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k13"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+		</LinearLayout>
+
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k21"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k22"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k23"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+		</LinearLayout>
+
+		<LinearLayout
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k31"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k32"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+
+			<EditText
+				android:id="@+id/configure_hill_cipher_k33"
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:layout_weight="0.33"
+				android:inputType="number"
+				android:padding="10dip"/>
+		</LinearLayout>
+	</TableLayout>
+
+	<Button
+		android:id="@+id/configure_hill_cipher_ok_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@android:string/ok"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@string/choose_alphabet"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<TextView
+		android:id="@+id/configure_monoalphabetic_cipher_choices"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="10dip"
+		android:text="@string/alpha_numeric"
+		android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	<EditText
+		android:id="@+id/configure_monoalphabetic_cipher_string"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:inputType="text"
+		android:maxLength="36"
+		android:padding="10dip">
+
+		<requestFocus/>
+	</EditText>
+
+	<Button
+		android:id="@+id/configure_monoalphabetic_cipher_random_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@string/random"/>
+
+	<Button
+		android:id="@+id/configure_monoalphabetic_cipher_ok_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@android:string/ok"/>
+
+</LinearLayout>

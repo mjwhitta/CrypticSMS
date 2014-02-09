@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="sites.mjwhitta.crypticsms" android:versionCode="23"
+	android:versionName="3.1">
+
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="17"/>
+
+	<application android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+		
+		<activity android:name="sites.mjwhitta.crypticsms.CipherListActivity"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+
+		<activity android:name="sites.mjwhitta.crypticsms.ciphers.ConfigureCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.aes.ConfigureAESCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.backwards.ConfigureBackwardsCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.caesar.ConfigureCaesarCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.des.ConfigureDESCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.hill.ConfigureHillCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.monoalphabetic.ConfigureMonoalphabeticCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.morsecode.ConfigureMorseCodeCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.playfair.ConfigurePlayfairCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.reversealphabet.ConfigureReverseAlphabetCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.triple.des.ConfigureTripleDESCipherActivity"/>
+
+		<activity
+			android:name="sites.mjwhitta.crypticsms.ciphers.vigenere.ConfigureVigenereCipherActivity"/>
+
+		<activity android:name="sites.mjwhitta.crypticsms.EncryptDecryptActivity"/>
+	</application>
+</manifest>

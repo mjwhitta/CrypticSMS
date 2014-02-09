@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+		android:id="@+id/add_cipher"
+		android:title="Add Cipher">
+	</item>
+	<item
+		android:id="@+id/usage"
+		android:title="Usage">
+	</item>
+
+</menu>

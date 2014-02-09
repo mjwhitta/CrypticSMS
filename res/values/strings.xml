@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">CrypticSMS</string>
+	<string name="usage">First a cipher needs to be created. Open the menu and select \"Add Cipher\". Then select the cipher type from the drop down box and give it a name. Press \"OK\". If a configuration screen appears, configure the Cipher how you would like and press \"OK\".\n\nFrom the list you can long press a Cipher to reconfigure or delete it. Select a Cipher from the list to use it.\n\nYou will see a text box where you can enter your message. \"Encrypt\", \"Decrypt\", and \"Back\" are self explainatory. Press \"Clear\" to clear the contents of the text box. Press \"Send\" to share the message with other apps such as: SMS, GMail, Google Voice, Google Talk, etc...</string>
+	<string name="no_config">No configuration needed.</string>
+	<string name="configure">Configure...</string>
+	<string name="delete">Delete</string>
+	<string name="encrypt">Encrypt</string>
+	<string name="decrypt">Decrypt</string>
+	<string name="clear">Clear</string>
+	<string name="send">Send</string>
+	<string name="enter">Enter key</string>
+	<string name="random">Random</string>
+	<string name="choose_alphabet">Choose your own alphabet:</string>
+	<string name="matrix_key">Enter 3x3 matrix key</string>
+	<string name="rotate">Rotate by: </string>
+	<string name="blank">Text here</string>
+	<string name="name">Name:</string>
+	<string name="alpha_numeric">abcdefghijklmnopqrstuvwxyz1234567890</string>
+
+</resources>

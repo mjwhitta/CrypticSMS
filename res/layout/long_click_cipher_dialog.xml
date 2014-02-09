@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<Button
+		android:id="@+id/cipher_configure_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@string/configure"/>
+
+	<Button
+		android:id="@+id/cipher_delete_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@string/delete"/>
+
+	<Button
+		android:id="@+id/cipher_cancel_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@android:string/cancel"/>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="10dip"
+			android:text="@string/rotate"
+			android:textAppearance="?android:attr/textAppearanceLarge">
+		</TextView>
+
+		<Spinner
+			android:id="@+id/configure_caesar_cipher_rotation"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<requestFocus/>
+		</Spinner>
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/configure_caesar_cipher_ok_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@android:string/ok"/>
+
+</LinearLayout>

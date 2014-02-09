@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:id="@+id/plaintext_ciphertext"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="1"
+		android:gravity="top"
+		android:inputType="textMultiLine"
+		android:padding="10dip">
+
+		<requestFocus/>
+	</EditText>
+
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal">
+
+		<Button
+			android:id="@+id/encrypt_button"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_weight="0.33"
+			android:padding="10dip"
+			android:text="@string/encrypt"/>
+
+		<Button
+			android:id="@+id/clear_button"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_weight="0.34"
+			android:padding="10dip"
+			android:text="@string/clear"/>
+
+		<Button
+			android:id="@+id/decrypt_button"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:layout_weight="0.33"
+			android:padding="10dip"
+			android:text="@string/decrypt"/>
+	</LinearLayout>
+
+	<Button
+		android:id="@+id/encrypt_decrypt_send_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dip"
+		android:text="@string/send"/>
+
+</LinearLayout>
